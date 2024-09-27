@@ -1,9 +1,9 @@
 
-const Trade =require("../models/trade")
+const Trade =require("../models/Trade")
 const csv = require('csv-parser');
 const fs = require('fs');
 
-// Function to parse CSV and store trades in the database
+// Function to parse CSV and store trades in the mongo database
 const parseCSV = (filePath) => {
   const results = [];
   
