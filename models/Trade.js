@@ -1,3 +1,5 @@
+const mongoose=require("mongoose")
+
 const tradeSchema = new mongoose.Schema({
     user_id: { type: Number, required: true },
     utc_time: { type: Date, required: true },
